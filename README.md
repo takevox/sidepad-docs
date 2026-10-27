@@ -21,11 +21,10 @@ Chrome 拡張機能「Sidepad」のヘルプとプライバシーポリシーの
 GitHub Pages で https://takevox.github.io/sidepad-docs/ に公開します。
 プライバシーポリシーは https://takevox.github.io/sidepad-docs/privacy/ です（ストアの申請に使う URL）。
 
-公開元は `publish` ブランチのルートで、中身は `dist/` のビルド結果だけです（ソースは `main`）。
-`main` に push すると、GitHub Actions（`.github/workflows/deploy.yml`）がビルドして `publish` に配置します。
-手動で配置し直したいときは、Actions の **Deploy** ワークフローを **Run workflow** で実行します。
+`main` に push すると、GitHub Actions（`.github/workflows/deploy.yml`）がビルドして Pages に公開します。
+手動で公開し直したいときは、Actions の **Deploy** ワークフローを **Run workflow** で実行します。
 
-- `publish` は自動で上書きされるので、直接編集しないでください。
+- リポジトリの Settings → Pages → Source は **GitHub Actions** にしてください。
 - サイトは `/sidepad-docs/` 配下に置かれます。本文のリンクは `/guide/editor/` のようにルートから書けば、ビルド時に自動で `/sidepad-docs` が付きます。
 
 ## ページ構成
