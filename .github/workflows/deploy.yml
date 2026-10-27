@@ -17,7 +17,8 @@ concurrency:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    # ubuntu-latest は移行期間中に警告が出るため、バージョンを固定する
+    runs-on: ubuntu-26.04
     steps:
       - uses: actions/checkout@v7
 
