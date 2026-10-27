@@ -36,6 +36,8 @@ After sending, the site's input field and the editor are cleared, and the page j
 
 While the editor is open, press <kbd>F1</kbd> to show a list of controls (a cheat sheet). It also shows your keyboard shortcuts and current settings. Press <kbd>F1</kbd> again, press <kbd>Esc</kbd>, or click to close it.
 
+The (?) button to the right of the gear at the top of the editor opens this help in a new tab.
+
 ## Language
 
 Sidepad's interface is available in Japanese and English. At first it follows your browser's language. You can switch it with "Language" in the [settings](/en/guide/settings/).
