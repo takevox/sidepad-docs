@@ -35,7 +35,11 @@ GitHub Pages で https://takevox.github.io/sidepad-docs/ に公開します。
 src/content/docs/
 ├── index.md         トップページ
 ├── guide/           使い方（サイドバーは自動生成。並び順は frontmatter の sidebar.order）
-└── privacy.md       プライバシーポリシー（日本語・英語）
+├── privacy.md       プライバシーポリシー（日本語・英語の併記。ストアに登録した URL）
+└── en/              英語版（/sidepad-docs/en/ 以下。guide/ と同じ構成）
+    └── privacy.md   併記ページの英語の部分へ移るだけのページ
 ```
+
+- 日本語のページを変えたら、`en/` の同じページも更新してください。英語版の用語は拡張機能の英語の画面（sidepad の `src/shared/i18n.ts`）にそろえます。
 
 プライバシーポリシーを改定したときは、制定日の下に改定日を追記してください。

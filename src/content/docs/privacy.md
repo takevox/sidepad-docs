@@ -8,6 +8,7 @@ description: Sidepad のプライバシーポリシー（Privacy Policy）
 ## 日本語
 
 制定日: 2026年10月27日<br>
+改定日: 2026年10月28日<br>
 提供者: WEELWORKS
 
 WEELWORKS（以下「当方」）は、Chrome 拡張機能「Sidepad」（以下「本拡張機能」）における利用者の情報の取り扱いについて、以下のとおり定めます。
@@ -34,7 +35,7 @@ WEELWORKS（以下「当方」）は、Chrome 拡張機能「Sidepad」（以下
 
 | 保存する情報 | 保存先 |
 |---|---|
-| 設定（自動表示・レイアウトの記憶の ON/OFF、ショートカットキー、フォント、文字サイズ） | `chrome.storage.sync` |
+| 設定（表示言語、各機能の ON/OFF、ショートカットキー、フォント、文字サイズ） | `chrome.storage.sync` |
 | サイトごとのレイアウト（エディタの表示位置、目次の配置、見出しの深さ） | `chrome.storage.local` |
 | タブごとの表示状態（エディタ・目次の開閉、配置） | `sessionStorage` |
 
@@ -73,6 +74,7 @@ WEELWORKS（以下「当方」）は、Chrome 拡張機能「Sidepad」（以下
 ## Privacy Policy (English)
 
 Effective date: October 27, 2026<br>
+Revised: October 28, 2026<br>
 Provider: WEELWORKS
 
 WEELWORKS ("we") describes below how the Chrome extension "Sidepad" (the "Extension") handles user information.
@@ -99,7 +101,7 @@ For convenience, the Extension stores the following in the user's browser:
 
 | Information | Storage |
 |---|---|
-| Settings (auto-open and layout-memory toggles, keyboard shortcuts, fonts, font sizes) | `chrome.storage.sync` |
+| Settings (display language, feature on/off toggles, keyboard shortcuts, fonts, font sizes) | `chrome.storage.sync` |
 | Per-site layout (editor position, table of contents position, heading depth) | `chrome.storage.local` |
 | Per-tab display state (whether the editor and table of contents are open, and their positions) | `sessionStorage` |
 

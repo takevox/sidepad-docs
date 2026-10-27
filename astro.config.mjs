@@ -24,16 +24,19 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: "Sidepad ヘルプ",
+      title: { ja: "Sidepad ヘルプ", en: "Sidepad Help" },
       description: "GitHub・Gemini・ChatGPT の入力欄を目次付きの分割エディタで編集できる Chrome 拡張機能「Sidepad」のヘルプ",
+      // 日本語はルート、英語は /en/ 以下に置く
       defaultLocale: "root",
       locales: {
         root: { label: "日本語", lang: "ja" },
+        en: { label: "English", lang: "en" },
       },
       customCss: ["./src/styles/custom.css"],
       sidebar: [
-        { label: "使い方", items: [{ autogenerate: { directory: "guide" } }] },
-        { label: "プライバシーポリシー", slug: "privacy" },
+        { label: "使い方", translations: { en: "Guide" }, items: [{ autogenerate: { directory: "guide" } }] },
+        // プライバシーポリシーは日英併記の 1 ページ（ストアに登録した URL）。英語版のサイドバーからも同じページを開く
+        { label: "プライバシーポリシー", translations: { en: "Privacy Policy" }, link: "/privacy/" },
       ],
     }),
   ],
