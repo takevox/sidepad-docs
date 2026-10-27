@@ -35,8 +35,8 @@ export default defineConfig({
       customCss: ["./src/styles/custom.css"],
       sidebar: [
         { label: "使い方", translations: { en: "Guide" }, items: [{ autogenerate: { directory: "guide" } }] },
-        // プライバシーポリシーは日英併記の 1 ページ（ストアに登録した URL）。英語版のサイドバーからも同じページを開く
-        { label: "プライバシーポリシー", translations: { en: "Privacy Policy" }, link: "/privacy/" },
+        // 日本語版（/privacy/）はストアに登録した URL。英語版は /en/privacy/
+        { label: "プライバシーポリシー", translations: { en: "Privacy Policy" }, slug: "privacy" },
       ],
     }),
   ],

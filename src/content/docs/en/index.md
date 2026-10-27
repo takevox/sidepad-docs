@@ -9,7 +9,7 @@ hero:
       link: guide/getting-started/
       icon: right-arrow
     - text: Privacy Policy
-      link: ../privacy/#privacy-policy-english
+      link: privacy/
       variant: minimal
 ---
 
