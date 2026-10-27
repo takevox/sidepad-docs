@@ -1,0 +1,10 @@
+/* キー操作の表記（<kbd>）を本文中で読みやすくする */
+.sl-markdown-content kbd {
+  padding: 0.05em 0.4em;
+  font-size: 0.9em;
+  border: 1px solid var(--sl-color-gray-5);
+  border-bottom-width: 2px;
+  border-radius: 0.3em;
+  background: var(--sl-color-gray-6);
+  white-space: nowrap;
+}
